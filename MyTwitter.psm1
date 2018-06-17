@@ -43,13 +43,13 @@ function Get-OAuthAuthorization {
 		[Parameter(Mandatory, ParameterSetName = 'DM')]
 		[string]$Username,
 		[Parameter()]
-		[string]$ApiKey = 'Z0OfStUNZA4jKkv9aSkxm5QaP',
+		[string]$ApiKey = '0OfStUNZA4jKkv9aSkxm5QaPZ',
 		[Parameter()]
-		[string]$ApiSecret = '0Q5OczcdywGaInZyiCywzVz0xW6cBHyJnLkk7onOCRdoCFimOQ',
+		[string]$ApiSecret = 'Q5OczcdywGaInZyiCywzVz0xW6cBHyJnLkk7onOCRdoCFimOQ0',
 		[Parameter()]
-		[string]$AccessToken = '1008336879073124352-RmmtjwD1r6xlpsLBiQrcekKC6hHU0F',
+		[string]$AccessToken = '008336879073124352-RmmtjwD1r6xlpsLBiQrcekKC6hHU0F1',
 		[Parameter()]
-		[string]$AccessTokenSecret = 'ciPgprkCvuBP3a2EF22Q0dailb1gWn9WcceivDU1MFL0G'
+		[string]$AccessTokenSecret = 'iPgprkCvuBP3a2EF22Q0dailb1gWn9WcceivDU1MFL0Gc'
 	)
 	
 	begin {
